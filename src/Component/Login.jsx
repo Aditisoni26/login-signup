@@ -20,7 +20,7 @@ export default function Login({onLogin}) {
     };
   return (
     <div>
-        <h2>Login Here!</h2>
+        <h2>Login</h2>
       <form onSubmit={handleOnSubmit}>
         <input  placeholder='Email' value={email} onChange={(e)=>setEmail(e.target.value)}/> <br /><br />
         <input placeholder='Password' value={password} onChange={(e)=>setPassword(e.target.value)} />  <br /><br />
